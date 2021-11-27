@@ -1,0 +1,12 @@
+1. ¿Por qué un lenguaje de programación sólo puede utilizar en algunos sistemas operativos y en otros no ?. 
+Hay lenguajes de programación interpretados, compilados y de máquina virtual (vm). Los lenguajes de vm suelen ser multiplataforma y permiten ser utilizados en diferentes sistemas operativos ya que se instala la vmy se puede correr cualquier aplicación que esté en ese lenguaje. Un ejemplo de lenguaje vm es Java. La vm Java puede instalarse en windows, en linux, en mac, o en android y así correrá cualquier sistema desarrollado con java. En cambio hay otros lenguajes que no presentan esta característica. Los lenguajes interpretados y compilados requieren una infraestructura y de un sistema operativo similar a la arquitectura y al sistema operativo donde se ejecutará. A continuación brindamos algunos ejemplos:
+Swift: ecosistemas Apple
+Kotlin: Aplicaciones móviles Android
+ Es decir, el lenguaje, arquitectura y sistema operativo deben ser compatibles. 
+      2. ¿Qué tipo de máquina virtual es virtualBox ?. R // VirtualBox es un software para virtualización, también conocido como hipervisor de tipo 2, que se utiliza para virtualizar sistemas operativos dentro de nuestro ordenador existente,
+creando lo que se conoce como máquina virtual. Un hipervisor de tipo 2 se diferencia con los de tipo 1 en que necesita un sistema operativo para funcionar, a diferencia de los de tipo 1 en los que el propio hipervisor funciona sobre el hardware, o máquina host. ((Https: // www .geeknetic.es / VirtualBox / que-es-y-para-que-sirve)
+
+
+      3. Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a los demás? 
+Las máquinas virtuales de procesos se ejecutan en un mismo servidor para ejecutar varias instancias de la misma aplicación de forma separada. Se pueden ejecutar varias máquinas virtuales a la vez, pueden aparecer como aplicaciones en pantallas separadas.
+Para el sistema operativo que se ejecuta dentro de la máquina virtual toda esta emulación es transparente e invisible. Todo funciona igual a si se estaba ejecutando en un PC normal, sin que sepa que en verdad está metido dentro de una burbuja dentro de otro sistema operativo. De hecho, nada te impide hacer como en la película Inception / Origen y crear otra máquina virtual dentro de la anterior máquina virtual.
