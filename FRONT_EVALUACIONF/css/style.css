@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+section.contenedor{
+    flex-wrap: wrap;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #242E52;
+    margin: 0.5em;
+
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 19vh;
+    margin-left: 11em;
+    margin-top: 3em;
+}
+
+header nav.uno ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 3em;
+    font-size: 1em;
+    color: #242E52;
+ 
+  
+}
+
+button{
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 0.625em;
+    border-radius: 3.125em;  
+    border-color:#F3603B;
+    border-style: solid;
+    flex: none;
+    margin-right: 4.380em;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
+
+main section.cifras {
+    display: flex;
+    align-items: flex-start;
+
+    margin-left: 10.313em;
+    margin-top: 11.25em;
+     }
+
+main section.cifras div h2{
+    color:  #232C50;
+    font-weight: 700;
+    width: 31.7vw;
+    margin-bottom: 1.75em;
+    margin-right: 3em;
+    font-size: 3.125em;
+    text-align: left;
+    
+    }
+main section.cifras div p{
+    font-size: 1em;
+    text-align: justify;
+    color: black;
+  
+}
+
+main section.cifras div button{
+
+    margin-top: 1.25em;
+    margin-bottom: 12.25em;
+}
+     
+main section.cifras div img{
+
+    position: relative;
+    bottom: 4.375em;
+    margin-left: 1em;
+}  
+
+main section.Question{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+main section.Question div.parte1{
+    margin-left: 10.313em;
+    margin-top: 2.5em;
+}
+
+main section.Question div.parte1 h3{
+    color: #232C50;
+    font-size: 2.25em;
+    text-align: left;
+    margin-bottom: 2.25em;
+
+}
+
+main section.Question div.parte1 p{
+    color: black;
+    font-size: 1em;
+    text-align:justify;
+}
+
+main section.Question article div.Caja1{
+    display: flex;
+    flex-direction:column;
+    margin-left: 16.563em;
+    margin-right: 11.5em;
+    margin-bottom: 2.75em;
+    
+
+    
+}
+main section.Question article div.Caja2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16.563em;
+    margin-right: 11.5em;
+    margin-bottom: 2.75em;
+    
+   }
+
+main section.Question article div.Caja3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16.563em;
+    margin-right: 11.5em;
+      
+}
+div.botones{
+background-color: #F3603B;
+border-radius: 1.875em;
+color: #FFFFFF;
+padding: 0.6em 1.65em;
+margin-right: 1.438em;
+width: 5vw;
+height: 6.9vh;
+position: relative;
+right: 5em;
+top: 2.5em;
+  
+}
+
+main section.Question div span{
+    color:#323851;
+    font-size: 1em;
+    margin-bottom: 1.125em;
+    font-weight: 700;
+ }
+main section.Question div p{
+    color:#B3B2B7;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+section.Personajes{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-direction:row;
+    
+    
+   
+}
+article.Pregunta{
+    display: flex;
+    text-align:center;
+    font-weight: 700;
+    color: #242E53;
+    font-size: 2.5em;
+    margin-top: 8.3em;
+    margin-bottom: 4.625em;
+   
+}
+.Personajes2{
+    display: flex;
+    align-items: center;
+    padding: 4.438em;
+    flex-direction: row;
+   
+}
+.Ali1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    background-color: #FAFAFA;
+    color: #B9B9C1;
+     
+}
+
+.Ali2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    background-color:#FAFAFA;
+    color: #B9B9C1;
+}
+ .Ali3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    background-color:#FAFAFA;
+    color: #B9B9C1;
+   
+    }
+ 
+ 
+
+h4{
+    color: #3F4868;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.563em;
+    margin-top: 1.313em;
+    margin-bottom: 1.313em;
+}
+
+.Ali1 p{
+    color:#B9B9C1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.563em;
+    width: 32.3vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+.Ali2 p{
+    color:#B9B9C1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.563em;
+    width: 32.3vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+.Ali3 p{
+    color:#B9B9C1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.563em;
+    width: 32.3vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+section.Personajes2 div.parte2 button{
+    display: flex;
+   align-items: center;
+   position: relative;
+    top: 18.75em;
+   right: 60em;
+   margin-top: 3.125em;
+   border-radius: 3.125em;
+   font-size: 0.813em;
+   font-weight: 4.563em;
+   Width: 9.8vw;
+   Height: 7.13vh;
+}
+
+section.partenaranja{
+    margin-top: 11.25em;
+    background-color: #F3613C;
+    Width: 100%;
+    height: 50vh;
+    margin-bottom:0%;
+    display:inline-block
+ }
+
+section.partenaranja div p{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10.3em;
+    margin: 1em;
+    margin-right: 14.25em;
+    position: relative;
+    top: 1em;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    Width:32vw;
+    Height: 15.5vh;
+    
+
+}
+
+section.partenaranja div.parte3 button{
+    background-color: #FFFFFF;
+    color:  #F3603B;
+    Width:9.8vw;
+    height: 7.13vh;
+    border-radius: 3.125em;
+    font-weight: bold;
+     
+}
+
+section.partenaranja div.parte3{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 33.6em;
+    margin-right: 6.25em;
+   position: relative;
+   bottom: 4.3em;
+   
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-color: #1E1E26;
+    margin-top: 0%;
+    position: absolute;
+    color: #FFFFFF;
+   
+        
+}
+
+footer div.iconos{
+    position: relative;
+    top: 3.125em;
+    right: 3.125em;
+    padding-right: 0.625em;
+    Width:11.2vw; 
+    height: 3.72vh;
+    
+}
+
+footer div.Logo2{
+    position: relative;
+    left:6.5em;
+    bottom: 3.125em;
+}
+
+footer nav.naveg2 ul li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1em;
+    font-weight: 400;
+       
+}
+footer nav.naveg3 ul li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1em;
+    font-weight: 400;
+       
+}
+a.r{
+    color: #FFFFFF;
+}
+
+footer nav.naveg2 ul{
+    margin-right: 11.8em;
+}
+
+footer article form input{
+    position: relative;
+    left: 3.125em;
+    width: 14.6vw;
+    height: 7.13vh;
+    border-radius: 3.125em;
+    
+}
+
+footer article form button{
+    position: relative;
+    bottom: 2.6em;
+    left: 15.6em;
+    margin: left 0.563em;
+    
+}
+
+footer p.final{
+    color:#8C8C94;
+    font-size: 0.813em;
+    font-weight: 500;
+    position: relative;
+    top: 8em;
+    right: 32vw;
+    Width: 40vh;
+}
+
+@media (max-width 29.2vw){
+
+    }
